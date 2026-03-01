@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@example.com",
+      "password": "Password123!",
+      "role": "Admin",
+      "status": "Active",
+      "last_login": "2026-02-24T10:30:00Z",
+      "watch_list": [
+        "tether",
+        "bitcoin"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jordan Chen",
+      "email": "j.chen@provider.net",
+      "password": "jordan_secure_88",
+      "role": "Editor",
+      "status": "Inactive",
+      "last_login": "2025-12-15T08:15:22Z"
+    },
+    {
+      "id": "3",
+      "name": "Sam Taylor",
+      "email": "staylor_dev@webmail.org",
+      "password": "qwerty_login_99",
+      "role": "User",
+      "status": "Active",
+      "last_login": "2026-02-25T14:45:10Z"
+    },
+    {
+      "id": "4",
+      "name": "Morgan Wright",
+      "email": "m.wright@startup.io",
+      "password": "morgan_wright_94",
+      "role": "Viewer",
+      "status": "Pending",
+      "last_login": null
+    },
+    {
+      "id": "5",
+      "name": "Casey Kim",
+      "email": "casey.k@agency.com",
+      "password": "casey_admin_pass",
+      "role": "Editor",
+      "status": "Active",
+      "last_login": "2026-02-26T09:00:00Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
